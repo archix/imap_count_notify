@@ -1,0 +1,3 @@
+Script takes arguments server, username, password and account.
+
+It returns number of unread emails and notify it.
