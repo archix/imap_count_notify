@@ -2,5 +2,7 @@ Script that returns and notify number of unread emails if there are any.
 
 Usage: ruby imap_count_notify.rb server username password account
 
+account is used in notification to point which account has new mails.
+
 Personally, I use it as a script for conky. It runs every 10 minutes and change number of unread emails on my conky, and
 notify me if there're unread mails.
