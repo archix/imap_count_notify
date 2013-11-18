@@ -1,3 +1,6 @@
-Script takes arguments server, username, password and account.
+Script that returns and notify number of unread emails if there are any.
 
-It returns and notify number of unread emails if there are any.
+Usage: ruby imap_count_notify.rb server username password account
+
+Personally, I use it as a script for conky. It runs every 10 minutes and change number of unread emails on my conky, and
+notify me if there're unread mails.
