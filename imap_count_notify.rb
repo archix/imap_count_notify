@@ -15,7 +15,7 @@ imap.select(folder)
 count = imap.search(["NOT", "SEEN"]).each.count
 
 Libnotify.show(:summary => account,
-   :body => "Novi mail #{count}", :timeout => 2.5) if count > 0
+   :body => "New mail #{count}", :timeout => 2.5) if count > 0
 
 imap.logout()
 imap.disconnect()
